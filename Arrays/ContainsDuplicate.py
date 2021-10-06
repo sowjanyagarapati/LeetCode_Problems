@@ -1,4 +1,4 @@
-'''Author @Sowjanya '''
+'''Author @sowjanyagarapati '''
 ''' This Program returns true if a list contains duplicates else returns false'''
 
 class Solution:
