@@ -5,9 +5,10 @@
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for i in range(len(nums)):
-            if(i==len(nums)-1):
-                break
-            elif(sum([nums[i],nums[i+1]])==target):
-                return [i,i+1]
+        hashMap = {}
+        for i,n in enumerate(nums):
+            if (target-n) in hashMap:
+                return [i,hashMap[target-n]]
+            else:
+                hashMap[n]=i
         
