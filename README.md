@@ -1,3 +1,3 @@
 # LeetCode_Problems
 
-This Repo has solutions of Some of the LeetCode Problems. These solutions are as per my Practice and Knowledge.
+This Repo has my way of solutions to Some of the LeetCode Problems. I will try to optimize them throughout my practice.
