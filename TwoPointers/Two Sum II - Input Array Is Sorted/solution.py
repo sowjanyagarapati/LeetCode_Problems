@@ -8,4 +8,7 @@ class Solution:
                 pairMap[v] = i+1
             else:
                 return [pairMap.get(pair), i+1]
+
+
+## optimal
         
