@@ -14,7 +14,7 @@ Space Complexity: O(1)
 def findClosestNumber(self, nums: list[int]) -> int:
     closest = nums[0]
     for num in nums: # O(n)
-        if abs(num) < closest:
+        if abs(num) < abs(closest):
             closest = num
     if closest < 0 and abs(closest) in nums: # O(n)
         return abs(closest)
